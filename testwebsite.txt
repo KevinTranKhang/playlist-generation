@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>SoundTrek</title>
+</head>
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h1 style="font-family:verdana;">Start connecting with the world around you through sound</h1>
+
+<style>
+div {
+  width:50%;
+  margin:auto;
+}
+</style>
+
+<div>
+<p style="font-family:verdana;color:#6f03fc;font-size:160%">Start by creating your first playlist  -> </p>
+</div>
+
+<h2 style="font-family:verdana;">Why use us?</h2>
+
+<style>
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;
+  display: inline-block;
+  float:left;
+}
+</style>
+<body>
+
+<div class="mycontainer">
+
+  <div>
+    <h2 style="color:#fc0388;">new music</h2>
+    <p style="font-family:verdana;">Proin eleifend purus ut ex vulputate, in placerat nulla fermentum. Etiam ac mauris fringilla, dapibus libero quis, vehicula neque. Cras elementum vulputate neque. Maecenas lobortis scelerisque metus vel fringilla. Vestibulum posuere ipsum dolor, at vehicula elit pulvinar et. Sed bibendum lectus ante, ac dictum tellus viverra a. Aliquam erat volutpat. Nullam vel orci quis arcu varius luctus. Phasellus porttitor, magna in luctus finibus, dui enim porta diam, ultrices sodales leo libero sed sem.</p>
+    <p style="font-family:verdana;">Morbi interdum ante a leo iaculis aliquet. Mauris dapibus, eros id consequat laoreet, erat metus fermentum turpis, a tempus sapien tortor id purus. Vivamus dapibus ligula vel volutpat faucibus. Nam vel lacus aliquet, fringilla ligula facilisis tempus. Cras ut nulla id magna imperdiet feugiat. Ut id felis at turpis suscipit pharetra. Praesent at placerat justo. Vivamus tempor dolor et lacus laoreet tempus.</p>
+  </div>
+  
+  <div>
+    <h2 style="color:#03f8fc;">connect with environment</h2>
+    <p style="font-family:verdana;">Nunc dictum mollis quam id sollicitudin. Nulla sed viverra felis. Nunc velit eros, molestie quis justo sit amet, scelerisque ornare neque. Aliquam erat volutpat. Aenean lorem massa, malesuada sed nisl non, accumsan eleifend tortor. Pellentesque sit amet purus vitae eros condimentum vehicula vel non ligula.</p>
+    <p style="font-family:verdana;">Praesent eu vulputate risus. Praesent mollis justo tortor, et porttitor elit consectetur ac. Morbi eu felis massa. Vestibulum pretium lobortis ligula at dapibus. </p>
+  </div>
+  
+  <div>
+    <h2 style="color:#6f03fc;">free</h2>
+    <p style="font-family:verdana;">Vivamus ac eleifend metus. Aenean ut leo vestibulum, suscipit arcu at, congue nulla. Quisque tincidunt ligula leo, et feugiat lectus congue et. Morbi in orci eu nibh efficitur interdum sed eget erat. Nulla volutpat scelerisque libero, vel placerat erat tristique id. Nam vestibulum mollis tellus facilisis mattis. </p>
+    <p style="font-family:verdana;"> Nam vel lacus aliquet, fringilla dui id, laoreet augue. Praesent pretium, odio nec vehicula ullamcorper, turpis elit vehicula nunc, pellentesque euismod nunc nulla ut eros. Vivamus rhoncus diam in lectus porta, vitae condimentum justo feugiat. Sed varius aliquet elit pretium tincidunt.</p>
+  </div>
+
+</div>
+
+</style>
+
+</body>
+</html>
