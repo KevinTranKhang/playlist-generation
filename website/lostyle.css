@@ -1,0 +1,52 @@
+body {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 2px;
+      overflow: hidden;
+      background-color: #6f03fc;
+    }
+    
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #fc0388;
+    }
+    
+    ul {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
