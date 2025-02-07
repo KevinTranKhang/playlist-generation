@@ -3,66 +3,60 @@
     height: 80px;
     flex-shrink: 0;
     background: #480049;
-    display: inline-block;
-    white-space: nowrap;
+
+    padding: 0 20px;
+    position: relative;
 
 
 
     img {
-        width: 95px;
-        height: 91px;
-        position: absolute;
-        left: 133px;
-        top: -10px;
+        width: 78px;
+        height: 79px;
     }
 
     .logo-name {
-        width: 117px;
-        height: 49px;
-        position: absolute;
-        left: 257px;
-        top: 24px;
+
         color: #ff05ee;
         font-family: Inter;
-        font-size: 36px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 800;
-        line-height: 120.95%;
+        position: absolute;
+        left: 111px;
+        top: 17px;
+
 
     }
 
     .sign-up {
         position: absolute;
-        right: 308px;
-        color: var(--header-links-on-black, #D9DADC);
+        color: #D9DADC;
         top: 27px;
         font-family: Inter;
         font-size: 23px;
-        font-style: normal;
         font-weight: 700;
-        line-height: normal;
+        right: 308px;
+
 
     }
 
     .log-in {
         position: absolute;
-        right: 148px;
-        color: var(--header-links-on-black, #D9DADC);
+        color: #D9DADC;
+        top: 27px;
         font-family: Inter;
         font-size: 23px;
-        top: 27px;
-        font-style: normal;
         font-weight: 700;
-        line-height: normal;
+        right: 148px;
     }
 
 }
 
 .foot {
-    width: 1728px;
-    height: 152px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 80px;
     background: #480049;
+    color: white;
 
 
 }
