@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+  margin: 0; }
+  body .login-background {
+    margin: 0;
+    height: 100vh;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(18, 18, 18, 0.84) 0%, rgba(120, 120, 120, 0.71) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .login-background .log-in-section {
+      width: 650px;
+      height: 700px;
+      background-color: rgba(18, 18, 18, 0.61);
+      border-radius: 10px;
+      display: flex;
+      /* Sử dụng flexbox */
+      justify-content: center;
+      /* Căn giữa theo chiều ngang */
+      align-items: center;
+      flex-direction: column; }
+      body .login-background .log-in-section img {
+        width: 108px;
+        height: 100px;
+        flex-shrink: 0;
+        margin-bottom: 10px;
+        margin-top: -150px; }
+      body .login-background .log-in-section .text {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 30px; }
+      body .login-background .log-in-section .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 30px; }
+        body .login-background .log-in-section .login-form .form-label {
+          color: #FFF;
+          font-family: Inter;
+          font-size: 23px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal; }
+        body .login-background .log-in-section .login-form .form-input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 30px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px; }
+        body .login-background .log-in-section .login-form .login-button {
+          width: 100%;
+          padding: 12px;
+          font-size: 18px;
+          font-weight: bold;
+          color: white;
+          background-color: f50f67;
+          border: none;
+          border-radius: 150px;
+          cursor: pointer;
+          transition: background 0.3s; }
+
+/*# sourceMappingURL=log-in.css.map */
